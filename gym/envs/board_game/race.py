@@ -4,8 +4,12 @@ import random
 import copy
 from namedlist import namedlist
 # length, nb_stops, length_curve]
-CIRCUIT = [[22, 7, 18, 10, 2, 6, 8, 6, 3, 18, 28, 7, 2, 7, 2, 13, 3, 11, 6, 6],
-           [1, 1, 1, 1, 3, 1, 1, 2, 2, 1]]
+MONACO_CIRCUIT = [[22, 7, 18, 10, 2, 6, 8, 6, 3, 18, 28, 7, 2, 7, 2, 13, 3, 11, 6, 6]*2,
+                  [1, 1, 1, 1, 3, 1, 1, 2, 2, 1]*2]
+
+CIRCUIT =[[28, 13, 18, 6, 5, 7, 4, 5, 18, 8, 17, 10]*2,
+          [2, 1, 1, 1, 2, 1]*2]
+
 
 DICE = [
     [1, 1, 2, 2],
